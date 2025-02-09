@@ -1,0 +1,12 @@
+
+/* Tabelas */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.splitGrid{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
