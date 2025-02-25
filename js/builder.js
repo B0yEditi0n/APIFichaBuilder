@@ -1,5 +1,6 @@
 
 
+
 class builder{
     personageJs = JSON.parse(jsonPersonagem)
     constructor(){
@@ -7,7 +8,9 @@ class builder{
         const hab = new habilidades(this.personageJs.habilidades)
         const def = new defesas(this.personageJs.defesas)
         const van = new vantagem(this.personageJs.vantagens)
+        const pod = new poderes(this.personageJs.poderes)
         const per = new pericias(this.personageJs.pericias)
+        
 
         this.customCSS()
     }
